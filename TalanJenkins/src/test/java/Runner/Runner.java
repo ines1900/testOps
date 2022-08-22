@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue= {"StepsDef"},
 		strict=true,                   
 		monochrome=true,
-		plugin = {"pretty","json:target/JSONReports/report.json","html:target/HtmlReports","json:target/ines.json"}
+		plugin = {"pretty","html:target/HtmlReports","json:target/ines.json"}
 		)
 public class Runner {
 
