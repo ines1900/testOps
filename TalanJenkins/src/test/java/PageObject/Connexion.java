@@ -30,6 +30,8 @@ public class Connexion extends Driver{
     private By sentance=By.xpath("//div[contains(@class,'swal-text')]");
     private By btn_OK=By.xpath("//button[contains(@class,'swal-button swal-button--confirm')]");
     
+	
+	
     
     private By btn_oldsessions=By.xpath("//span[contains(@class,'nav-text ml-3')]");
     private By btn_voircours=By.linkText("Voir Le Cours");  
