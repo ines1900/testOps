@@ -11,7 +11,7 @@ import junit.framework.Assert;
 public class Connexion extends Driver{
 	
 	WebDriver driver;
-	
+	//55
     private By champs_seconnecter= By.xpath("//*[@id=\"main-menu\"]/div/div/div/nav/div/ul/li[5]/a");
     private By champs_email=By.xpath("//input[contains(@id,'inputEmail')]");
     private By champs_password=By.xpath("//input[contains(@id,'inputPassword')]");
