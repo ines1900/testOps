@@ -1,4 +1,3 @@
-@scenario
 Feature: Verify that user can creat an account on Talan
 
   @backgroud
@@ -13,7 +12,6 @@ Feature: Verify that user can creat an account on Talan
       | email                   | password     |
       | ines.masmoudi@talan.com | DmbDBgDbHT95 |
 
-  @test1
   Scenario Outline: user is able to modify his profils data
     Given user is on his dashbord
     When user clicks on his profil
@@ -26,7 +24,7 @@ Feature: Verify that user can creat an account on Talan
       | name  | familyname | birthday | phonenumber | town |
       | inessss | masssmoudi | 07081991 |    21240226 | Sfax |
 
-  @test2
+  
   Scenario: user is able to check his old sessions courses ressources
     Given old session link is displayed
     When user clicks on his old sessions link

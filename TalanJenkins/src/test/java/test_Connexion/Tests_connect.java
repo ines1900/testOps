@@ -1,4 +1,6 @@
-package StepsDef;
+package test_Connexion;
+
+
 
 import Driver.Driver;
 import PageObject.Connexion;
@@ -7,13 +9,13 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class Connectsteps extends Driver{
+
+public class Tests_connect extends Driver{
 	
 	Connexion connexion;
 	Connexion modifprofil ;
 	Connexion checkResources;
 //connexion
-	
 	@Given("browser is open")
 	public void browser_is_open() {
 		intialization();
