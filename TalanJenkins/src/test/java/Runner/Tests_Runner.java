@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features="src/test/resources/Features/TalanJenkins.feature", 
-		glue= {"test_Connexion"},
+		glue= {"StepsDef"},
 		strict=true,                   
 		monochrome=true,
 		plugin = {"pretty","html:target/HtmlReports","json:target/ines.json" }
